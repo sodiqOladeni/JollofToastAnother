@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.theconnector.jolloftoast.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:layout_width="@dimen/button_dimen"
+        android:layout_height="wrap_content"
+        android:text="successful"
+        android:onClick="Success"/>
+
+    <Button
+        android:layout_width="@dimen/button_dimen"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:onClick="Info"/>
+
+    <Button
+        android:layout_width="@dimen/button_dimen"
+        android:layout_height="wrap_content"
+        android:text="warning"
+        android:onClick="Warning"/>
+
+    <Button
+        android:layout_width="@dimen/button_dimen"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:onClick="Error"/>
+
+    <Button
+        android:layout_width="@dimen/button_dimen"
+        android:layout_height="wrap_content"
+        android:text="confusing"
+        android:onClick="Confusing"/>
+
+
+
+
+</LinearLayout>
